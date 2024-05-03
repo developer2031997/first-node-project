@@ -1,0 +1,42 @@
+
+// extra code
+
+// const users = require("./MOCK_DATA.json");
+
+// mongoose
+//   .connect(
+//     "mongodb+srv://developer2031997:awh1kbmG8mQa5rT7@cluster0.xbudz9e.mongodb.net/"
+//   )
+//   .then(() => console.log("MangoDb Connected"))
+//   .catch((err) => console.log("error", err));
+
+// connect with mango db
+
+// app.use((req, res, next) => {
+//   fs.appendFile(
+//     "log.txt",
+//     `\n ${Date.now()} : ${req.ip} : ${req.method} : ${req.path} \n`,
+//     (err) => {
+//       // Provide a callback function here
+//       if (err) {
+//         console.error("Error appending to log file:", err);
+//       }
+//     }
+//   );
+//   next(); // Call next() to move to the next middleware in the chain
+// });
+
+
+ //   users.push({
+    //     ...body,
+    //     id: users.length + 1,
+    //   });
+    //   fs.writeFile("./MOCK_DATA.json", JSON.stringify(users), (error, data) => {
+    //     return res.json({
+    //       status: "sucess",
+    //       id: users.length,
+    //     });
+    //   });
+
+   //   const id = Number(req.params.id);
+  //   const user = users.find((user) => user.id === id);
